@@ -1,3 +1,5 @@
+# Not part of the test. 
+# Just here to remove warnings in vscode for screenshots. 
 InputVal = 0
 input_units = 0
 outputUnits = 0
@@ -8,7 +10,8 @@ energy2output =0
 lineEdit_2= 0
 PyQt4 = 0
 class aaaaaa:
-
+# Actual test is below
+# --------------------
 
 
     def convert(self):
