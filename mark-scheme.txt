@@ -1,0 +1,40 @@
+CPP
+===
+
+- [ ] Unused imports
+- [ ] Using namespace std
+- [ ] Poor function naming
+- [ ] Poor parameter naming
+- [ ] Parameters not given as const &
+- [ ] Returns a map when it could just be a vector
+- [ ] Everything within a try/catch
+- [ ] Throws runtime errors without a message
+- [ ] Creates raw pointers to the vector
+- [ ] <= end will segfault at the end of the loop
+- [ ] The push_back will always add from the very beginning of the string
+- [ ] The cout will run on every loop, not just split strings.
+- [ ] Split strings are added to the keys of a map for no reason.
+- [ ] Refs not used in loop
+- [ ] Commented out code
+- [ ] Catches everything and discards error information
+- [ ] Final error cout is unreachable
+
+
+Python
+======
+
+- [ ] Everything in an if, rather than returning early.
+- [ ] Big try/except
+- [ ] Inconsistent variable naming
+    - [ ] Should be in snake_case for python
+- [ ] Inconsistent float/if for val1
+- [ ] lineEdit4 is the same in both if and else
+- [ ] Magic numbers
+- [ ] Repeated calculations
+- [ ] val2 immediately overwritten after the if
+- [ ] Commented debugging statements
+- [ ] Commented code
+- [ ] Discarded exception information
+- [ ] Imports not at the top of the file
+- [ ] Unhelpful warning message produced
+- [ ] Final print is unreachable
